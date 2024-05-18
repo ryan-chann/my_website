@@ -1,0 +1,260 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@100..900&display=swap');
+
+html {
+    /*Floral White*/
+    background-color: #FFF7F2;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#body {
+    margin: 45px 112px 0px 83px;
+}
+
+/* Color */
+    /* Background */
+    .background-teagreen{
+        background-color: #D8FFB6;
+    }
+
+    .background-shampoo{
+        background-color: #FFD3F3;
+    }
+
+    /* Text */
+    .font-darkcharcoal {
+        color: #332E2E;
+    }
+
+    .font-darkpuce {
+        color: #414747;
+    }
+
+    .font-black {
+        color: #000000;
+    }
+
+/* Font */
+    /* Font Family */
+    .font-family-outfit {
+        font-family: 'Outfit';
+    }
+
+    .font-family-atkinsonhyperlegible {
+        font-family: 'Atkinson Hyperlegible';
+    }
+
+    /* Font Size */
+    .font-size-125 {
+        font-size: 125px;
+    }
+
+    .font-size-75 {
+        font-size: 75px;
+    }
+
+    .font-size-30 {
+        font-size: 30px;
+    }
+
+    .font-size-28 {
+        font-size: 28px;
+    }
+
+    .font-size-24 {
+        font-size: 24px;
+    }
+
+    .font-size-20 {
+        font-size: 20px;
+    }
+
+    .font-size-16 {
+        font-size: 18px;
+    }
+
+    /* Font Weight */
+    .font-bold {
+        font-weight: bold;
+    }
+
+/* Header */
+    .header {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /* Navigation Menu */
+    .header > nav > a{
+        padding: 0px 0px 12px 0px;
+        border-bottom: 5px solid #332E2E;
+        text-decoration: none;
+    }
+
+    .header > nav > #navigation-projects, #navigation-skills {
+        margin: 0px 50px 0px 0px;
+    }
+
+    .navigation-border-bottom {
+        border-bottom: 5px solid #332E2E;
+    }
+
+    .navigation-border-bottom:hover {
+        border-bottom: 5px dashed #332E2E;
+    }
+
+/* Section 1 */
+    .section-1 {
+        margin: 65px 0px 300px 0px;
+        grid-template-columns: 620px auto;
+        display: grid;
+    }
+
+    .section-1 > div > p {
+        margin: 50px 0px 0px 0px;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .text-align-right {
+        text-align: right;
+    }
+
+    .border-spacing{
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 20px 0px;
+    }
+
+    .border-dashed {
+        border-bottom: 5px dashed #332E2E;
+    }
+
+    #contact-links {
+        margin: 20px 0px 0px 0px;
+    }
+
+    #contact-links > a > .linkedin-icon, .github-icon{
+        margin: 0px 60px 0px 0px
+    }
+
+/* Section 2 */
+    .section-2 {
+        display: grid;
+        grid-template-columns: 510px auto;
+        margin: 0px 0px 250px 0px;
+    }
+
+    .margin-top-80 {
+        margin-top: 80px;
+    }
+
+    .margin-left-200 {
+        margin-left: 200px;
+    }
+
+    .section-2-border-bottom{
+        border-bottom: 1px solid #332E2E;
+    }
+
+    .section-2-header {
+        padding: 0px 0px 20px 0px;
+    }
+
+    .logo-images {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 40px 0px 0px 0px;
+    }
+
+    .logo-icon {
+        margin: 0px 20px 30px 0px;
+    }
+
+/* Section 3 */
+    .section-3 {
+        display: grid;
+        grid-template-columns: 620px auto;
+        margin: 0px 0px 250px 0px;
+    }
+
+    .section-3-div {
+        margin: 50px 0px 0px 0px;
+    }
+
+    .section-3-header {
+        padding: 0px 0px 10px 0px;
+        margin: 0px 0px 0px 73px
+    }
+
+    .section-3-description {
+        margin: 35px 0px 0px 73px;
+    }
+
+    #featured-projects {
+        padding: 0px 0px 10px 0px;
+    }
+
+/* Section 4 */
+    .section-4 {
+        display: grid;
+        grid-template-columns: 680px auto;
+        margin: 57px 0px 250px 0px;
+    }
+
+    .section-4-header {
+        display: flex;
+    }
+
+    .section-4-heading {
+        margin: 5px 0px 0px 80px;
+    }
+
+    #interest-description {
+        margin: 40px 120px 0px 0px;
+    }
+
+    #projectprompt-description{
+        margin: 40px 0px 0px 0px;
+    }
+
+    .projectprompt-list-item{
+        margin: 15px 0px 0px 0px;
+    }
+
+    #projectprompt-button {
+        background-color: #332E2E;
+        width: 200px;
+        height: 50px;
+        border-radius: 50px;
+    }
+
+    #projectprompt-button > a {
+        text-decoration: none;
+        color:#FFF7F2;
+    }
+
+/* Footer */
+    footer {
+        width: 100%;
+        height: 100px;
+        background-color:#FFD3F3;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer > span {
+        margin-top: auto;
+    }
+
+
