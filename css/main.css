@@ -206,7 +206,7 @@ body{
 /* Section 4 */
     .section-4 {
         display: grid;
-        grid-template-columns: 680px 550px;
+        grid-template-columns: 720px 550px;
         margin: 57px 0px 250px 0px;
     }
 
