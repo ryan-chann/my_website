@@ -113,7 +113,7 @@ body{
 /* Section 1 */
     .section-1 {
         margin: 65px 0px 300px 0px;
-        grid-template-columns: 620px 650px;
+        grid-template-columns: 620px 630px;
         display: grid;
     }
 
