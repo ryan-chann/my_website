@@ -1,7 +1,7 @@
 # My Personal Website
 **Author**: Ryan Chan Joon Yew.  
 **Last updated**: 19 May 2024.  
-**Purpose**: To introduce myself with a static webpage.
+**Purpose**: To introduce myself with a static webpage.  
 **Website Link**: https://ryan-chann.github.io/my_website/
 
 ## Link To Figma
