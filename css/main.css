@@ -6,13 +6,11 @@ html {
     /*Floral White*/
     background-color: #FFF7F2;
     width: 100%;
-    padding: 0;
-    margin: 0;
 }
 
 body{
-    padding: 0;
-    margin: 0;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 #body {
@@ -90,6 +88,7 @@ body{
     .header {
         display: flex;
         justify-content: flex-end;
+        min-width: 1255px;
     }
 
     /* Navigation Menu */
@@ -114,7 +113,7 @@ body{
 /* Section 1 */
     .section-1 {
         margin: 65px 0px 300px 0px;
-        grid-template-columns: 620px auto;
+        grid-template-columns: 620px 650px;
         display: grid;
     }
 
@@ -150,7 +149,7 @@ body{
 /* Section 2 */
     .section-2 {
         display: grid;
-        grid-template-columns: 510px auto;
+        grid-template-columns: 510px 700px;
         margin: 0px 0px 250px 0px;
     }
 
@@ -183,7 +182,7 @@ body{
 /* Section 3 */
     .section-3 {
         display: grid;
-        grid-template-columns: 620px auto;
+        grid-template-columns: 620px 600px;
         margin: 0px 0px 250px 0px;
     }
 
@@ -207,7 +206,7 @@ body{
 /* Section 4 */
     .section-4 {
         display: grid;
-        grid-template-columns: 680px auto;
+        grid-template-columns: 680px 550px;
         margin: 57px 0px 250px 0px;
     }
 
@@ -251,6 +250,7 @@ body{
         text-align: center;
         display: flex;
         flex-direction: column;
+        min-width: 1255px;
     }
 
     footer > span {
